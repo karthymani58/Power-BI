@@ -1,4 +1,4 @@
-# Power BI Assignment 1 – Data Transformation & Data Modeling
+# Power BI – Data Transformation & Data Modeling
 
 An end-to-end Power BI project analyzing e-commerce sales performance, focusing on data import, transformation via Power Query, relational data modeling, missing/duplicate data handling, and custom DAX calculations.
 
@@ -6,7 +6,7 @@ An end-to-end Power BI project analyzing e-commerce sales performance, focusing 
 
 ## 📌 Project Overview
 
-This repository contains the complete implementation for **Power BI Assignment 1 (E-Commerce Sales Analysis)**. The goal of this assignment is to demonstrate best practices in Power BI for importing multi-source e-commerce data, applying business transformation rules, building an optimized star/snowflake schema model, and preparing data for analytical reporting.
+This repository contains the complete implementation for **Power BI  1 (E-Commerce Sales Analysis)**. The goal of this  is to demonstrate best practices in Power BI for importing multi-source e-commerce data, applying business transformation rules, building an optimized star/snowflake schema model, and preparing data for analytical reporting.
 
 ---
 
@@ -24,7 +24,7 @@ The project processes three key CSV datasets:
 
 ### 1. Data Import & Row Restructuring
 * **Multi-Source Import**: Imported all three CSV files into Power BI Desktop via Power Query Editor.
-* **Row Restriction**: Restricted the `List of Orders` table to the **first 500 rows** (`Table.FirstN(#"List of Orders", 500)`) as specified in assignment requirements.
+* **Row Restriction**: Restricted the `List of Orders` table to the **first 500 rows** (`Table.FirstN(#"List of Orders", 500)`) as specified in  requirements.
 
 ### 2. Data Cleaning & Type Transformations
 * **Date Parsing**: Explicitly cast the `Order Date` column in `List of Orders` to the `Date` data type.
@@ -58,9 +58,9 @@ ightarrow$ `"Profit"`
 
 ---
 
-## 📐 Data Modeling & Relationships
+## 📐 Data Modelling & Relationships
 
-The relational data model in `Assignment1.pbix` was configured in Model View as follows:
+The relational data model in `Data Transformation & Data Modelling 1.pbix` was configured in Model View as follows:
 
 ```
 +-------------------+             +--------------------+             +------------------+
@@ -84,7 +84,7 @@ ightarrow$ `Order Details`) to avoid ambiguous bi-directional filter propagation
 ---
 
 
-## 📋 Assignment Compliance Checklist
+## 📋 Compliance Checklist
 
 - [x] Restrict `List of Orders` to first 500 rows.
 - [x] Set `Order Date` data type to `Date`.
